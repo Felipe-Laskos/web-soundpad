@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+
+.btn-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btn-sound {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #5866d4;
+    width: 90%;
+    padding: 50px 25px;
+    color: white;
+    margin: 10px;
+    transition: background-color 0.25s;
+}
+
+.btn-sound:hover {
+    background-color: #424d9b;;
+}
