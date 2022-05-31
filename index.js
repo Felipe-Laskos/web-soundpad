@@ -3,9 +3,9 @@ var buttons = document.getElementsByClassName("btn-sound");
 var playingNow = false;
 
 [...buttons].forEach((btn => {
-    const soundPath = btn.getAttribute("data-sound-path");
+    const soundName = btn.getAttribute("data-sound-name");
 
-    const sound = new Audio(`./sounds/${soundPath}`);
+    const sound = new Audio(`./sounds/${soundName}`);
 
     btn.addEventListener("click", function (event) {
         /*
